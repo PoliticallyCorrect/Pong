@@ -41,7 +41,7 @@ public class pongpanel extends JPanel{
 			g.fillRect(630, 20 + (intC * intY), 20, 20);
 		}
 		// Paddles
-		g.setColor(Color.WHITE);
+		g.setColor(Color.RED);
 		g.fillRect(intP1X, intP1Y, intWidth, intHeight);
 		g.fillRect(intP2X, intP2Y, intWidth, intHeight);
 		// Paddle Movement
