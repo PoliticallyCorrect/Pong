@@ -10,6 +10,7 @@ import java.awt.Font.*;
 
 public class pongpanel extends JPanel{
 	// Properties
+	
 	int intP1Y = 310;
 	int intP1X = 100;
 	int intP2Y = 310;
@@ -32,18 +33,19 @@ public class pongpanel extends JPanel{
 	//methods help the program
 	public void paintComponent(Graphics g){
 		// Court
-		g.setColor(Color.BLACK);
+		g.setColor(Color.BLUE);
 		g.fillRect(0, 0, 1280, 740);
-		g.setColor(Color.GRAY);
+		g.setColor(Color.GREEN);
 		g.fillRect(0, 0, 1280, 20);
 		g.fillRect(0, 720, 1280, 20);
 		for(intC = 0; intC <= 36; intC++){
 			g.fillRect(630, 20 + (intC * intY), 20, 20);
 		}
 		// Paddles
-		g.setColor(Color.RED);
+		g.setColor(Color.BLUE);
 		g.fillRect(intP1X, intP1Y, intWidth, intHeight);
 		g.fillRect(intP2X, intP2Y, intWidth, intHeight);
+		repaint();
 		// Paddle Movement
 		if(blnP1Down && intP1Y != 620){ 
 			intP1Y = intP1Y + 10;
