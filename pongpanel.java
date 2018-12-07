@@ -29,6 +29,7 @@ public class pongpanel extends JPanel{
 	int intP1Score = 0;
 	int intP2Score = 0;
 	// Methods
+	//methods help the program
 	public void paintComponent(Graphics g){
 		// Court
 		g.setColor(Color.BLACK);
