@@ -58,6 +58,7 @@ public class pongpanel extends JPanel{
 			intP2Y = intP2Y - 10;
 		}
 		// Ball
+		g.setColor(Color.RED);
 		g.fillOval(intBallX, intBallY, 20, 20);
 		// Ball Movement
 		intBallX = intBallX + vx;
