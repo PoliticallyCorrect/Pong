@@ -1,3 +1,6 @@
+//My first swing animation game 
+//using KeyListener, MouseotionListener
+//Created on Dec 7
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.*;
